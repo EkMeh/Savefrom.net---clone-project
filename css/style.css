@@ -1,0 +1,530 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Popins', sans-serif;
+}
+
+body{
+    background: #F7F9F9;
+    width: 100vh;
+    height: 100vh;
+}
+
+
+/* header section style starts */
+
+.headerContent{
+    position: relative;
+    border-bottom:.1rem solid #D0D3D4;
+    left: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    justify-items: center;
+    padding: 1rem;
+}
+
+.headerContent .webName h2
+{
+    font-size: 2.5rem;
+    letter-spacing: .30rem;
+}
+
+.headerContent .menu
+{
+    margin-left: 10rem;
+}
+
+.headerContent .menu ul
+{ 
+    display: flex;
+    justify-content: space-between;
+}
+
+.headerContent .menu ul li
+{
+    list-style: none;
+}
+
+.headerContent .menu ul li a
+{
+    text-transform: capitalize;
+    text-decoration: none;
+    color:rgba(0, 0, 0, 0.6);
+    font-size: 1.5rem;
+    padding:.2rem;
+    margin-left: 5rem;
+    letter-spacing: 0.02rem;
+}
+
+.headerContent .menu ul li a:hover
+{
+    border-bottom: .15rem solid blue;
+}
+
+/* header section style ends */
+
+
+/* first content style strats */
+.firstContentBox
+{
+    position: relative;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    left: 50%;
+}
+
+.firstContentBox .firstContentBoxName
+{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;  
+    margin-top: 3rem;
+}
+
+.firstContentBox .firstContentBoxName h2
+{
+    font-size: 2.5rem;
+    text-transform: capitalize;
+}
+
+.firstContentBox .firstContentBoxName ion-icon
+{
+    font-size: 2.5rem;
+    color: white;
+    background-color: #2ECC71;
+    border-radius: 50%;
+    margin-left: 2rem;
+}
+
+.firstContentBox .firstContentBoxForm
+{
+    display: grid;
+    margin-top: 3rem;
+}
+
+.firstContentBox .firstContentBoxForm .firstContentBoxFormBox
+{
+    display: flex;
+    justify-content:center;
+    justify-items: center;
+    align-items: center;
+}
+
+.firstContentBox .firstContentBoxForm .firstContentBoxFormBox input
+{
+    font-size: 1.2rem;
+    height: 2.8rem;
+    width: 35rem;
+    border: .3rem solid #2ECC71;
+}
+
+
+.firstContentBox .firstContentBoxForm .firstContentBoxFormBox input::placeholder
+{
+    padding: .5rem;
+}
+
+.firstContentBox .firstContentBoxForm .firstContentBoxFormBox button
+{
+    background: #2ECC71;
+    color: white;
+    border: none;
+    font-size: 1.2rem;
+    text-transform: capitalize;
+    padding: .7rem;
+    margin-left: 2rem;
+    cursor: pointer;
+}
+
+.firstContentBox .firstContentBoxForm .firstContentBoxFormBox button:hover
+{
+    background: rgba(46, 204, 113, 0.5);
+}
+
+.firstContentBox .firstContentBoxForm p
+{
+    font-size: 1rem;
+    margin-top: .4rem;
+    color:rgba(0, 0, 0, 0.8);
+}
+
+.firstContentBox .firstContentBoxForm p span a
+{
+    color: #3498DB;
+    text-transform: capitalize;
+}
+
+.firstContentBox .firstContentBoxForm p span a:hover 
+{
+    color: #F39C12;
+}
+
+.firstContentBox .p1
+{
+    margin-top: 2rem;
+}
+
+.firstContentBox .p1 a
+{
+    font-size: 1.3rem;
+    color: #3498DB;
+    font-weight: 550;
+}
+
+.firstContentBox .p1 a:hover 
+{
+    color: #F39C12;
+}
+
+.firstContentBox .sp1
+{
+    text-transform: uppercase;
+    margin-top: 2rem;
+    padding: 1.5rem;
+    padding-left: 10rem; padding-right: 10rem;
+    border: .1rem solid rgba(0, 0, 0, 0.2)
+}
+/* first content style ends */
+
+/* second content style starts  */
+.secondContentBox
+{
+    position: relative;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    left: 50%;
+    margin-top: 2rem;
+}
+
+.secondContentBox .p3
+{
+    color: red;
+    font-size: 1.6rem;
+    letter-spacing: .2rem;
+    margin-top: 2rem;
+    font-weight: 550;
+}
+
+.secondContentBox .p4
+{
+    font-size: 1.2rem;
+    letter-spacing: .1rem;
+    margin-top: .5rem;
+}
+
+.secondContentBox .img1
+{
+    transform: scale(0.8);
+}
+
+.secondContentBox button
+{
+    background: #2ECC71;
+    color: white;
+    border: none;
+    font-size: 2rem;
+    text-transform: capitalize;
+    padding: .7rem;
+    margin-left: 2rem;
+    cursor: pointer;
+    margin-top: -2rem;
+}
+
+.secondContentBox button:hover
+{
+    background: rgba(46, 204, 113, 0.5);
+}
+
+.secondContentBox .secondContentBoxNotation 
+{
+    display: flex;
+    justify-content: space-around;
+    justify-items: center;
+    align-items: center;
+    margin-top: 2rem;
+    background: #85C1E9;
+}
+
+.secondContentBox .secondContentBoxNotation .p7
+{
+    color:#2E86C1;
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-weight: 700;
+    letter-spacing: .2rem;
+    text-align: center;
+}
+
+.secondContentBox .secondContentBoxNotation .p8
+{
+    color:#2E86C1;
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-weight: 700;
+    letter-spacing: .2rem;
+    text-align: center;
+}
+
+.secondContentBox .secondContentBoxNotation .p9
+{
+    color:rgba(0, 0, 0, 0.6);
+    font-size: .9rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+.secondContentBox .secondContentBoxNotation .p10
+{
+    color:red;
+    font-size: .9rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+.secondContentBox .secondContentBoxNotationSponsored
+{
+    margin-left: 1.5rem;
+}
+
+.secondContentBox .secondContentBoxNotationSponsored .imgboxOne .img3,.img4,.img5,.img6,.img7,.img8
+{
+    transform: scale(0.8);
+}
+
+.secondContentBox .p5 
+{
+    margin-top: 1rem;
+    font-size: 1rem;
+    font-weight:700;
+}
+
+.secondContentBox .p5 ion-icon
+{
+    color: yellow;
+}
+
+.secondContentBox .secondContentBoxSocialBox
+{
+    display: flex;
+    justify-content: space-around;
+}
+
+.secondContentBox .secondContentBoxSocialBox .secondContentBoxSocialBoxInfo:nth-child(1)
+{
+    margin-left: 0;
+}
+
+.secondContentBox .secondContentBoxSocialBox .secondContentBoxSocialBoxInfo
+{
+    display: flex;
+    background: rgba(46, 204, 113, 0.5);
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    margin-top: 1.5rem;
+    margin-left: 1.5rem;
+    padding: .5rem;
+}
+
+.secondContentBox .secondContentBoxSocialBox .secondContentBoxSocialBoxInfo ion-icon
+{
+    font-size: 1.7rem;
+    color: white;
+}
+
+.secondContentBox .secondContentBoxSocialBox .secondContentBoxSocialBoxInfo p
+{
+    font-size: 1.2rem;
+    margin-left:.5rem;
+}
+/* second content style ends  */
+
+/* thrid content style starts  */
+
+.thirdContentBox
+{
+    position: relative;
+    display: grid; left: 50%;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+.thirdContentBox h2
+{
+    font-size: 2rem;
+    text-transform: capitalize;
+    letter-spacing: .2rem;
+}
+
+.thirdContentBox .thirdContentBoxResources
+{
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+.thirdContentBox .thirdContentBoxResources .thirdContentBoxResourcesBox
+{
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+}
+
+.thirdContentBox .thirdContentBoxResources .thirdContentBoxResourcesBox .secondContentBoxSocialBoxInfo
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    margin-left: 1.5rem;
+}
+
+.thirdContentBox .thirdContentBoxResources .thirdContentBoxResourcesBox .secondContentBoxSocialBoxInfo ion-icon
+{
+    font-size: 1.7rem;
+    color:#2ECC71;
+}
+
+.thirdContentBox .thirdContentBoxResources .thirdContentBoxResourcesBox .secondContentBoxSocialBoxInfo p
+{
+    font-size: 1.2rem;
+    margin-left:.5rem;
+}
+
+/* thrid content style starts  */
+
+/* fourth content style starts  */
+.fourthContentBox
+{
+    position: relative;
+    display: grid;left: 50%;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+}
+
+.fourthContentBox h2
+{
+    font-size: 2rem;
+    text-transform: capitalize;
+    margin-top: 3rem;
+    letter-spacing: .2rem;
+}
+
+.fourthContentBox p
+{
+    font-size: 1.2rem;
+    text-align: start;
+    margin-top: 2rem;
+}
+
+/* fourth content style ends  */
+
+/* fifth content style starts  */
+.fifthContentBox
+{
+    position: relative;left: 50%;
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+}
+
+.fifthContentBox h2
+{
+    font-size: 2rem;
+    text-transform: capitalize;
+    margin-top: 3rem;
+    letter-spacing: .2rem;
+}
+
+.fifthContentBox .fifthContentBoxInfo
+{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.fifthContentBox .fifthContentBoxInfo button
+{
+    background: #2ECC71;
+    color: white;
+    border: none;
+    font-size: 1.2rem;
+    text-transform: capitalize;
+    padding: .7rem;
+    margin-left: 2rem;
+    cursor: pointer;
+}
+
+.fifthContentBox .fifthContentBoxInfo button:hover
+{
+    background: rgba(46, 204, 113, 0.5);
+}
+
+/* fifth content style ends  */
+
+/* footer style strats  */
+.footerContentBox
+{
+    position: relative; left: 50%;
+    display: flex; margin-top: 4rem;
+    justify-content: space-between;
+    justify-items: center;
+    align-items: center;
+    padding-top: 2rem; padding-bottom: 2rem;
+    border-top:.1rem solid #D0D3D4;
+}
+
+.footerContentBox .nameContent 
+{
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+}
+
+
+.footerContentBox .nameContent p
+{
+    margin-top: .3rem;
+}
+
+.footerContentBox .infoLinkBox
+{
+    display: grid;
+}
+
+.footerContentBox .infoLinkBox p:first-child
+{
+    margin-top: 0;
+}
+
+.footerContentBox .infoLinkBox p 
+{
+    margin-top: .5rem;
+    cursor: pointer;
+}
+
+.footerContentBox .infoLinkBox p span:hover 
+{
+    border-bottom:.1rem solid #D0D3D4;
+}
+/* footer style ends  */
+
