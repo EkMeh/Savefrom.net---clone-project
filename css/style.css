@@ -9,17 +9,16 @@
 
 body{
     background: #F7F9F9;
-    width: 100vh;
-    height: 100vh;
 }
 
 
 /* header section style starts */
 
 .headerContent{
+    max-width: 1920px; width: 100%;
     position: relative;
+    background: #2E86C1;
     border-bottom:.1rem solid #D0D3D4;
-    left: 50%;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -71,12 +70,12 @@ body{
 /* first content style strats */
 .firstContentBox
 {
+    max-width: 1920px; width: 100%;
     position: relative;
     display: grid;
     justify-content: center;
     align-items: center;
     justify-items: center;
-    left: 50%;
 }
 
 .firstContentBox .firstContentBoxName
@@ -196,12 +195,12 @@ body{
 /* second content style starts  */
 .secondContentBox
 {
+    max-width: 1920px; width: 100%;
     position: relative;
     display: grid;
     justify-content: center;
     align-items: center;
     justify-items: center;
-    left: 50%;
     margin-top: 2rem;
 }
 
@@ -352,8 +351,9 @@ body{
 
 .thirdContentBox
 {
+    max-width: 1920px;width: 100%;
     position: relative;
-    display: grid; left: 50%;
+    display: grid; 
     justify-content: center;
     justify-items: center;
     align-items: center;
@@ -410,8 +410,9 @@ body{
 /* fourth content style starts  */
 .fourthContentBox
 {
-    position: relative;
-    display: grid;left: 50%;
+    max-width: 1920px;width: 80%;
+    position: relative;left: 10%;
+    display: grid;
     justify-content: center;
     justify-items: center;
     align-items: center;
@@ -437,7 +438,8 @@ body{
 /* fifth content style starts  */
 .fifthContentBox
 {
-    position: relative;left: 50%;
+    max-width: 1920px;width: 100%;
+    position: relative;
     display: grid;
     justify-content: center;
     justify-items: center;
@@ -483,7 +485,8 @@ body{
 /* footer style strats  */
 .footerContentBox
 {
-    position: relative; left: 50%;
+    max-width: 1920px;width: 100%;
+    position: relative; 
     display: flex; margin-top: 4rem;
     justify-content: space-between;
     justify-items: center;
@@ -526,5 +529,3 @@ body{
 {
     border-bottom:.1rem solid #D0D3D4;
 }
-/* footer style ends  */
-
